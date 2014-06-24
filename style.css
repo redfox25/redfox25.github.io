@@ -1,0 +1,37 @@
+
+/*
+#fullpage {
+	background: url("http://www.hdwallpapers.in/walls/abstract_color_background_picture_8016-wide");
+}
+*/
+#section0 {
+	            color: white;
+            font-family: Helvetica;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            background-image: url(http://images.fineartamerica.com/images-medium-large-5/medieval-cobblestone-street-in-the-fortified-walled-european-village-of-obidos-david-letts.jpg)
+}
+#section2{
+	background: #FFCC66
+}
+#section3 {
+	background: #9E9E9E;
+}
+
+h1 {
+	padding-left: 10px;
+
+
+}
+
+h2 {
+	padding-left: 10px;
+}
+
+img {
+	position: left;
+	display: inline;
+}
