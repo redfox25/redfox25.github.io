@@ -1,24 +1,25 @@
 
 /*
-#fullpage {
-	background: url("http://www.hdwallpapers.in/walls/abstract_color_background_picture_8016-wide");
-}
+#fullpage .tableCell {
+	vertical-align: top;
+	}
 */
+
 #section0 {
-	            color: white;
-            font-family: Helvetica;
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: 50% 50%;
-            background-image: url(http://images.fineartamerica.com/images-medium-large-5/medieval-cobblestone-street-in-the-fortified-walled-european-village-of-obidos-david-letts.jpg)
+	color: white;
+    font-family: Helvetica;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-image: url(http://images.fineartamerica.com/images-medium-large-5/medieval-cobblestone-street-in-the-fortified-walled-european-village-of-obidos-david-letts.jpg)
 }
 #section2{
 	background: #FFCC66
 }
 #section3 {
-	background: #9E9E9E;
+	
 }
 
 h1 {
@@ -35,3 +36,38 @@ img {
 	position: left;
 	display: inline;
 }
+.work p {
+	position; relative;
+	display: block;
+	top: 10px;
+
+}
+
+#down-button {
+    display: block;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 60px;
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+hr {
+	color: #7fffd4;
+	background-color: #7fffd4;
+	height: 1px;
+}
+
+#section1 .tableCell {
+	vertical-align: top;
+}
+#section2 .tableCell {
+	vertical-align: top;
+}
+
+#section3 .tableCell {
+	vertical-align: top;
+}
+
