@@ -24,24 +24,50 @@
     <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
 
     <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="js/main.js"></script> <!-- Modernizr -->
     <!--end  -->
     <title>MyWeb</title>
 </head>
-<body>
-<!-- Things to do
-1. add a click on arrow down
-2. Add navigation bar that appears/disappears
-3. refresh the page and it remains on the same back and doesn't go back to the first page, possible?
-4. some thing fun to the contact page that moves -->
-<div id="fullpage">
-    <!-- Page 1-->
-    <div id="top" class="jumbotron" data-src="http://images.fineartamerica.com/images-medium-large-5/medieval-cobblestone-street-in-the-fortified-walled-european-village-of-obidos-david-letts.jpg">
-    </div>
-    <div class="section active" id="section0" data-anchor="firstPage">
-        <div id="home" class="container">
-            <h1>Tatyana Shapiro</h1>
-            <h2>Resume</h2>
-            <!-- four section in one -->
+<body id='project-wrap'>
+    <!-- Things to do
+    1. add a click on arrow down
+    2. Add navigation bar that appears/disappears
+    3. refresh the page and it remains on the same back and doesn't go back to the first page, possible?
+    4. some thing fun to the contact page that moves -->
+    <header>
+        <a id="cd-menu-trigger" href="#"><span class="cd-menu-text"></span><span class="cd-menu-icon"></span></a>
+    </header>
+    <nav id="cd-lateral-nav" class="">
+        <ul class="cd-navigation">
+            <li class="item-has-children">
+                <a href="#1">Home</a>
+            </li>
+            <li class="item-has-children">
+                <a href="#2">About</a>
+            </li>
+            <li class="item-has-children">
+                <a href="#3">Experience</a>
+            </li>
+            <li class="item-has-children">
+                <a href="#4">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="fullpage">
+
+        <!-- Page 1-->
+
+        <div id="top" class="jumbotron" data-src="http://images.fineartamerica.com/images-medium-large-5/medieval-cobblestone-street-in-the-fortified-walled-european-village-of-obidos-david-letts.jpg">
+        </div>
+
+        <div class="section active" id="section0" data-anchor="firstPage">
+            <div id="home" class="container">
+                <h1>Tatyana Shapiro</h1>
+                <h2>Resume</h2>
+                <!-- four section in one -->
                 <!--   <div id="top">top</div>
                 <div id="bottom">bottom</div> -->
                 <img class="clickDown" id="down-button" src="http://www.designdownloader.com/item/pngl/arrow_down_9/arrow_down_9-20110809160902-00017.png" width="50px" height="50px">
@@ -55,8 +81,7 @@
                 <hr>
                 <div class="bio">
                     <img src="https://lh3.googleusercontent.com/-dqQZOYDov9Y/U6d0ZnEdL8I/AAAAAAAAAzI/5Y0g9CtfWcM/s2048/profile_photo.jpg" alt="profile_image" width="200px" height="280px">
-                    <div  class="col-md-6" >
-
+                    <div  class="col-md-6">
                         <p>Cupcake ipsum dolor sit amet. Danish wafer ice cream carrot cake toffee gummi bears. Cookie danish tiramisu croissant. Jelly-o jelly beans gummies. Cupcake icing applicake biscuit. Apple pie bonbon soufflé cheesecake chupa chups. Jujubes halvah brownie jujubes sweet sugar plum. Pudding marzipan sugar plum tootsie roll tiramisu icing. Caramels pastry sweet donut tootsie roll danish. Soufflé sesame snaps sweet sesame snaps applicake carrot cake cheesecake biscuit. Wafer pastry dragée applicake applicake jelly beans liquorice chocolate bar. Wafer lollipop marshmallow liquorice sweet roll applicake sesame snaps. Gummi bears halvah cotton candy danish biscuit bear claw. Jujubes jelly beans pastry. Apple pie cake donut gummies lemon drops topping jelly halvah chupa chups. Icing bear claw bonbon lollipop cupcake toffee pudding jelly beans. Gingerbread chupa chups muffin bonbon.</p>
                     </div>
                 </div>
@@ -67,6 +92,7 @@
             <div id="work" class="container">
                 <h1>Work Experience</h1>
                 <hr>
+
                 <div class="row">
                     <div class="col-md-3"><strong>POPSUGAR</strong>
                         <p class="work-years">2013 - present</p>
@@ -112,7 +138,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-9">
                             <ul class="no-bullets">
                                 <li><a href="http://linkedin.com"><img src="https://g.twimg.com/Twitter_logo_blue.png" width="40px" height="40px">http://linkedin.com</li>
                             </ul>

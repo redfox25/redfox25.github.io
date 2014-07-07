@@ -4,7 +4,6 @@
 	vertical-align: top;
 	}
 */
-
 #section0 {
 	color: white;
     font-family: Helvetica;
@@ -15,11 +14,7 @@
     background-position: 50% 50%;
     background-image: url(http://images.fineartamerica.com/images-medium-large-5/medieval-cobblestone-street-in-the-fortified-walled-european-village-of-obidos-david-letts.jpg)
 }
-#section2{
-	background: #FFCC66
-}
-#section3 {
-}
+
 h1 {
 	padding-left: 10px;
 }
@@ -49,9 +44,9 @@ img {
 }
 
 hr {
-	color: #7fffd4;
-	background-color: #7fffd4;
-	height: 1px;
+	
+	background-color: #ffff00;
+	height: 2px;
 }
 
 #section1 .tableCell {
@@ -70,9 +65,38 @@ ul
 }
 
 .bio {
+	position: relative;
 	display: table;
-	margin-left: auto;
-    margin-right: auto;
-  
+	margin-left: 50px;
+    margin-right: 50px;
+}
+	
+.cd-main-content {
+  /* set a min-height and a z-index to be sure that the main element completely covers the lateral menu */
+  min-height: 100%;
+  z-index: 2;
+  transition-property: transform;
+  transition-duration: 0.4s;
+}
+.cd-main-content.lateral-menu-is-open {
+  transform: translateX(-260px);
 }
 
+.cd-main-content {
+  /* set a min-height and a z-index to be sure that the main element completely covers the lateral menu */
+  min-height: 100%;
+  z-index: 2;
+  transition-property: transform;
+  transition-duration: 0.4s;
+}
+.cd-main-content.lateral-menu-is-open {
+  transform: translateX(-260px);
+}
+
+#project-wrap header {
+  background:transparent;
+}
+
+#project-wrap #cd-menu-trigger {
+  width:60px;
+}
