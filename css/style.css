@@ -237,6 +237,7 @@ header.is-fixed {
 }
 
 #cd-lateral-nav {
+  display:none;
   position: fixed;
   height: 100%;
   right: 0;
@@ -295,6 +296,7 @@ header.is-fixed {
   transform: translateX(0);
   /* smooth the scrolling on touch devices - webkit browsers */
   -webkit-overflow-scrolling: touch;
+  display:block;
 }
 
 /* style menu items which have a submenu  */
