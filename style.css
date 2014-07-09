@@ -1,18 +1,33 @@
-/*
-#fullpage .tableCell {
-  vertical-align: top;
-  }
-*/
+
 #section0 {
-  color: white;
+    color: white;
     font-family: Helvetica;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
-    background-image: url(http://images.fineartamerica.com/images-medium-large-5/medieval-cobblestone-street-in-the-fortified-walled-european-village-of-obidos-david-letts.jpg)
+    background-image: url(http://www.archer-designs.com/adwp/wp-content/gallery/calgary-streets-2010/street-for-web-1.jpg);
 }
+
+#section1 {
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-image: url();
+
+}
+
+.picture { 
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%); 
+  -moz-filter: grayscale(100%); 
+  -ms-filter: grayscale(100%); 
+  -o-filter: grayscale(100%); 
+}
+
 
 .header1 {
   font-family: Helvetica;
@@ -49,20 +64,18 @@ img {
 
 hr {
   
-  background-color: #ffff00;
+  background-color: black;
   height: 2px;
 }
 
 .my-bio {
   padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 80px;
 }
 
 .picture {
   padding-top: 100px;
 }
-
 
 #section1 .tableCell {
   vertical-align: top;
@@ -116,5 +129,13 @@ ul
   width:60px;
 }
 
-
+#project-wrap {
+  font-family: Arial;
+  color: black;
+}
+.keep-calm {
+  display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
 
