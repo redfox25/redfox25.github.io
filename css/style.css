@@ -29,7 +29,7 @@ body {
 }
 
 a {
-  color: #6cac70;
+  color: white;
   text-decoration: none;
 }
 
@@ -88,6 +88,7 @@ header.lateral-menu-is-open {
   -ms-transform: translateX(-260px);
   -o-transform: translateX(-260px);
   transform: translateX(-260px);
+
 }
 header.is-fixed {
   position: fixed;
@@ -152,7 +153,8 @@ header.is-fixed {
   top: 0;
   height: 100%;
   width: 50px;
-  background-color: #64807d;
+  /*background-color: #64807d;*/
+  background: #1E1E1E;
 }
 #cd-menu-trigger .cd-menu-text {
   height: 100%;
@@ -246,8 +248,9 @@ header.is-fixed {
   top: 0;
   /* the secondary navigation is covered by the main element */
   z-index: 1;
-  width: 260px;
-  background-color: #242e30;
+  width: 270px;
+/*  background-color: #242e30;*/
+background-color: #1E1E1E;
   overflow-y: auto;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
@@ -267,6 +270,10 @@ header.is-fixed {
 }
 #cd-lateral-nav .cd-navigation {
   margin: 10px 0 16px;
+#cd-lateral-nav {
+	color: white;
+}
+
 }
 #cd-lateral-nav .sub-menu {
   padding: 0 10px 20px 15px;

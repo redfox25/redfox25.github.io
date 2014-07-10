@@ -1,24 +1,43 @@
 
 #section0 {
-    color: white;
-    font-family: Helvetica;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-image: url(http://www.archer-designs.com/adwp/wp-content/gallery/calgary-streets-2010/street-for-web-1.jpg);
+  color: white;
+  font-family: Helvetica;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-image: url(http://www.archer-designs.com/adwp/wp-content/gallery/calgary-streets-2010/street-for-web-1.jpg);
+}
+.click-Down {
+  background: transparent;
 }
 
 #section1 {
   background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-image: url();
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-color: #1E1E1E;
+  color: #FEFCFF;
 
 }
+
+#section2 {
+  
+  background-color: #1E1E1E;
+  color: #FEFCFF;
+
+}
+#section3 {
+  
+  background-color: #1E1E1E;
+  color: #FEFCFF;
+
+}
+
+
 
 .picture { 
   filter: grayscale(100%); 
@@ -53,17 +72,17 @@ img {
 }
 
 #down-button {
-    display: block;
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    width: 60px;
-    z-index: 100;
-    cursor: pointer;
+  display: block;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 60px;
+  z-index: 100;
+  cursor: pointer;
 }
 
 hr {
-  
+
   background-color: black;
   height: 2px;
 }
@@ -89,7 +108,7 @@ hr {
 }
 ul
 {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .bio {
@@ -98,7 +117,10 @@ ul
   margin-left: 50px;
   margin-right: 50px;
 }
-  
+
+ .cd-lateral-nav {
+    background-color: white;
+ }
 .cd-main-content {
   /* set a min-height and a z-index to be sure that the main element completely covers the lateral menu */
   min-height: 100%;
@@ -109,6 +131,7 @@ ul
 .cd-main-content.lateral-menu-is-open {
   transform: translateX(-260px);
 }
+
 
 .cd-main-content {
   /* set a min-height and a z-index to be sure that the main element completely covers the lateral menu */
@@ -132,10 +155,11 @@ ul
 #project-wrap {
   font-family: Arial;
   color: black;
+  background-color: #1E1E1E;
 }
 .keep-calm {
   display: block;
-    margin-left: auto;
-    margin-right: auto }
+  margin-left: auto;
+  margin-right: auto }
 }
 
