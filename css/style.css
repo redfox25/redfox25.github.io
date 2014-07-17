@@ -154,7 +154,7 @@ header.is-fixed {
   height: 100%;
   width: 50px;
   /*background-color: #64807d;*/
-  background: #1E1E1E;
+  background:   #7a7a7a;
 }
 #cd-menu-trigger .cd-menu-text {
   height: 100%;
@@ -250,7 +250,7 @@ header.is-fixed {
   z-index: 1;
   width: 270px;
 /*  background-color: #242e30;*/
-background-color: #1E1E1E;
+background-color:   #7a7a7a;
   overflow-y: auto;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);

@@ -19,20 +19,20 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
-  background-color: #1E1E1E;
+  background-color: #7a7a7a;
   color: #FEFCFF;
 
 }
 
 #section2 {
   
-  background-color: #1E1E1E;
+  background-color: #7a7a7a;
   color: #FEFCFF;
 
 }
 #section3 {
   
-  background-color: #1E1E1E;
+  background-color: #7a7a7a;
   color: #FEFCFF;
 
 }
@@ -155,7 +155,7 @@ ul
 #project-wrap {
   font-family: Arial;
   color: black;
-  background-color:  #bfbfbf;
+  background-color: #7a7a7a;
 }
 .keep-calm {
   display: block;
